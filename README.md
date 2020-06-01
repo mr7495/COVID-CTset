@@ -4,7 +4,7 @@ COVID-CTset is our introduced dataset. It was gathered from Negin medical center
 
 One of our novelties is using a 16bit data format instead of converting it to 8bit data, which helps improve the method's results. Converting the DICOM files to 8bit data may cause losing some data, especially when few infections exist in the image that is hard to detect even for clinical experts. This lost data may be the difference between different images or the values of the pixels of the same image. The pixels' values of the images differ from 0 to almost 5000, and the maximum pixels values of the images are considerably different. So scaling them through a consistent value or scaling each image based on the maximum pixel value of itself can cause the mentioned problems and reduce the network accuracy. So each image of COVID-CTset is a TIFF format, 16bit grayscale image.
 
-In some stages of our work, we used the help of clinical experts under the supervision of dr.sakhaei, a radiology specialist, to separate those images that the COVID-19 infections are clear.
+
 To make these images visible with regular monitors, we converted them to float by dividing each image's pixel value by the maximum pixel value of that image. This way, the output images had a 32bit float type pixel values that could be visualized by regular monitors, and the quality of the images was good enough for analysis.
 
 Some of the images of our dataset are presented in the next figure.
@@ -16,19 +16,19 @@ Some of the images of our dataset are presented in the next figure.
 </p>
 
 
-Our dataset is constructed of two sections. The first section is the raw data for each person. The second section includes training and validation data. We converted the images to 32-bit float types on the TIFF format so that we could visualize them with regular monitors. Then we took the help of the clinical experts under the supervision of the third author(Radiology Specialist) in the Negin medical center to select the infected patients' images that the infections were clear on them. We used these data for training and validating the trained networks.
+Our dataset is constructed of two sections. **The first section is the raw data for each person. The second section includes training and validation data.** We converted the images to 32-bit float types on the TIFF format so that we could visualize them with regular monitors. Then we took the help of the clinical experts under the supervision of dr.sakhaei (Radiology Specialist) in the Negin medical center to select the infected patients' images that the infections were clear on them. We used these data for training and validating the trained networks.
 
 To report more real and accurate results, we separated the dataset into five folds for training and validation. Almost 20 percent of the patients with COVID19 were allocated for validation in each fold, and the rest were considered for training. Because the number of normal patients and images was more than the infected ones, we almost chose the number of normal images equal to the COVID-19 images to make the dataset balanced. Therefore the number of normal images that were considered for network validation was higher than the training images.
 
 The number of images and patients is listed in the next table.
 
-The details of the training and validation data are reported in the next tables.
+
 
 COVID-19 Patients | COVID-19 Images | Normal Patients | Normal Images
 ------------ | ------------- | ------------- | ------------- 
  95 | 282 | 15589 | 48260 
 
-
+The details of the training and validation data are reported in the next tables.
 
 
 Fold (Training Set)  | COVID-19 Patients | COVID-19 Images | Normal Patients | Normal Images
@@ -53,10 +53,19 @@ Fold5 | 22 | 450 | 211 | 7785
     <em>The distribution of our dataset</em>
 </p>
 
-This dataset is shared in two parts. The first part with the name (Training&Validation.zip) contains the images for training and validating the networks in five folds. You can also find the CSV files of the images(labels) in the CSV folder.<br /> 
-The second part (COVID-CTset.zip) contains the whole dataset for each patient. 
+This dataset is shared in two parts. **The first part with the name (Training&Validation.zip) contains the images for training and validating the networks in five folds. You can also find the CSV files of the images(labels) in the CSV folder.<br /> 
+The second part (COVID-CTset.zip) contains the whole dataset for each patient.** 
 
 **Each patient has three folders (SR_2, SR_3, SR_4), which each folder show one sequence of the lung HRCT scan images of that patient (One time the patient's lung opens and closes).**
+
+In the next figure you can see what a sequence look like:
+
+<p align="center">
+    <img src="images/sequence-1.jpg" alt="photo not available" width="100%" height="70%">
+    <br>
+    <em>An image sequence belongs to one folder of the CT scans of a patient</em>
+</p>
+
 
 **The details of each patient is presented in [Patient_details.csv](Patient_details.csv)**
 
