@@ -44,4 +44,4 @@ The second part (COVID-CTset.zip) contains the whole dataset for each patient. E
 **The dataset is shared in this folde:**<br />
 https://drive.google.com/drive/folders/1xdk-mCkxCDNwsMAk2SGv203rY1mrbnPB?usp=sharing
 
-**As the images of the dataset can not be visualized by regular monitors, you can use [Visualization.py](Visualization.py) to convert them to a visulizable format.**
+**As the images of the dataset can not be visualized by regular monitors, you can use [Visualize.py](Visualize.py) to convert them to a visulizable format.**
