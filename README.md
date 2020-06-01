@@ -69,7 +69,7 @@ In the next figure you can see what a sequence look like:
 
 **The details of each patient is presented in [Patient_details.csv](Patient_details.csv)**
 
-**The dataset is shared in this folde:**<br />
+**The dataset is shared in this folder:**<br />
 https://drive.google.com/drive/folders/1xdk-mCkxCDNwsMAk2SGv203rY1mrbnPB?usp=sharing
 
 **As the images of the dataset can not be visualized by regular monitors, you can use [Visualize.py](Visualize.py) to convert them to a visualizable format.**
