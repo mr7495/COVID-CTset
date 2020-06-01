@@ -41,5 +41,5 @@ Fold5 | 22 | 450 | 211 | 7785
 This dataset is shared in two parts. The first part with the name (Training&Validation.zip) contains the images for training and validating the networks in five folds. You can also find the CSV files of the images(labels) in the CSV folder.<br /> 
 The second part (COVID-CTset.zip) contains the whole dataset for each patient. Each patient has three folders (SR_2, SR_3, SR_4), which each folder show one sequence of the lung HRCT scan images of that patient (One time the patient's lung opens and closes).
 
-**The dataset is shared in this folde:**<br />
+**The dataset is shared in this Google drive folder:**<br />
 https://drive.google.com/drive/folders/1xdk-mCkxCDNwsMAk2SGv203rY1mrbnPB?usp=sharing
