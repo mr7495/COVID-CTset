@@ -24,8 +24,16 @@ The details of the training and validation data are reported in the next tables.
 
 Fold (Training Set)  | COVID-19 Patients | COVID-19 Images | Normal Patients | Normal Images
 ------------ | ------------- | ------------- | ------------- | ------------- 
-Fold1 | 77 | 1820 | 45 | 1916 | 18 | 462
-Fold2 | 72 | 1817 | 37 | 1898 | 23 | 465
-Fold3 | 77 | 1836 | 53 | 1893 | 18 | 446
-Fold4 | 81 | 1823 | 76 | 1920 | 14 | 459
-Fold5 | 73 | 1832 | 71 | 1921 | 22 | 450
+Fold1 | 77 | 1820 | 45 | 1916 
+Fold2 | 72 | 1817 | 37 | 1898 
+Fold3 | 77 | 1836 | 53 | 1893 
+Fold4 | 81 | 1823 | 76 | 1920 
+Fold5 | 73 | 1832 | 71 | 1921 
+
+Fold (Validation Set)  | COVID-19 Patients | COVID-19 Images | Normal Patients | Normal Images
+------------ | ------------- | ------------- | ------------- | ------------- 
+Fold1 | 18 | 462 | 237 | 7860 
+Fold2 | 23 | 465 | 245 | 7878 
+Fold3 | 18 | 446 | 229 | 7883  
+Fold4 | 14 | 459 | 206 | 7856  
+Fold5 | 22 | 450 | 211 | 7785  
