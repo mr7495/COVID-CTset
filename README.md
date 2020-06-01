@@ -10,9 +10,9 @@ To make these images visible with regular monitors, we converted them to float b
 Some of the images of our dataset are presented in the next figure.
 
 <p align="center">
-	<img src="images/dataset-1.jpg" alt="photo not available" width="100%" height="70%">
-	<br>
-	<em>Some of the images of our dataset</em>
+    <img src="images/dataset-1.jpg" alt="photo not available" width="100%" height="70%">
+    <br>
+    <em>Some of the images of our dataset</em>
 </p>
 
 
@@ -38,13 +38,23 @@ Fold3 | 18 | 446 | 229 | 7883
 Fold4 | 14 | 459 | 206 | 7856  
 Fold5 | 22 | 450 | 211 | 7785  
 
+<p align="center">
+    <img src="images/distribution-1.jpg" alt="photo not available" width="100%" height="70%">
+    <br>
+    <em>The distribution of our dataset</em>
+</p>
+
 This dataset is shared in two parts. The first part with the name (Training&Validation.zip) contains the images for training and validating the networks in five folds. You can also find the CSV files of the images(labels) in the CSV folder.<br /> 
-The second part (COVID-CTset.zip) contains the whole dataset for each patient. Each patient has three folders (SR_2, SR_3, SR_4), which each folder show one sequence of the lung HRCT scan images of that patient (One time the patient's lung opens and closes).
+The second part (COVID-CTset.zip) contains the whole dataset for each patient. 
+
+**Each patient has three folders (SR_2, SR_3, SR_4), which each folder show one sequence of the lung HRCT scan images of that patient (One time the patient's lung opens and closes).**
+
+**The details of each patient is presented in [Patient_details.csv](Patient_details.csv)**
 
 **The dataset is shared in this folde:**<br />
 https://drive.google.com/drive/folders/1xdk-mCkxCDNwsMAk2SGv203rY1mrbnPB?usp=sharing
 
-**As the images of the dataset can not be visualized by regular monitors, you can use [Visualize.py](Visualize.py) to convert them to a visulizable format.**
+**As the images of the dataset can not be visualized by regular monitors, you can use [Visualize.py](Visualize.py) to convert them to a visualizable format.**
 
  
  **The pre-prints is available at:** </br>
