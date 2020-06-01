@@ -20,7 +20,16 @@ Our dataset is constructed of two sections. The first section is the raw data fo
 
 To report more real and accurate results, we separated the dataset into five folds for training and validation. Almost 20 percent of the patients with COVID19 were allocated for validation in each fold, and the rest were considered for training. Because the number of normal patients and images was more than the infected ones, we almost chose the number of normal images equal to the COVID-19 images to make the dataset balanced. Therefore the number of normal images that were considered for network validation was higher than the training images.
 
+The number of images and patients is listed in the next table.
+
 The details of the training and validation data are reported in the next tables.
+
+COVID-19 Patients | COVID-19 Images | Normal Patients | Normal Images
+------------ | ------------- | ------------- | ------------- 
+ 95 | 282 | 15589 | 48260 
+
+
+
 
 Fold (Training Set)  | COVID-19 Patients | COVID-19 Images | Normal Patients | Normal Images
 ------------ | ------------- | ------------- | ------------- | ------------- 
