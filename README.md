@@ -78,4 +78,16 @@ https://drive.google.com/drive/folders/1xdk-mCkxCDNwsMAk2SGv203rY1mrbnPB?usp=sha
  **The pre-prints is available at:** </br>
  https://www.researchgate.net/publication/341804692_A_Fully_Automated_Deep_Learning-based_Network_For_Detecting_COVID-from_a_New_And_Large_Lung_CT_Scan_Dataset
  
+ The paper bibtex will be added soon, until then you can cite it by:
+ ```
+@article{https://doi.org/10.13140/rg.2.2.10063.92320/1,
+  doi = {10.13140/RG.2.2.10063.92320/1},
+  url = {http://rgdoi.net/10.13140/RG.2.2.10063.92320/1},
+  author = {Rahimzadeh, Mohammad and {Abolfazl Attar} and Sakhaei, Seyed Mohammad},
+  language = {en},
+  title = {A Fully Automated Deep Learning-based Network For Detecting COVID-19 from a New And Large Lung CT Scan Dataset},
+  publisher = {Unpublished},
+  year = {2020}
+}
+ ```
  If you have any questions, contact me by this email : mr7495@yahoo.com
