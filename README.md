@@ -84,4 +84,16 @@ https://drive.google.com/drive/folders/1xdk-mCkxCDNwsMAk2SGv203rY1mrbnPB?usp=sha
  ```
 Rahimzadeh, M.; Attar, A.; Sakhaei, M. A Fully Automated Deep Learning-based Network For Detecting COVID-19 from a New And Large Lung CT Scan Dataset. Preprints 2020, 2020060031 (doi: 10.20944/preprints202006.0031.v1).
  ```
+ Temporary  Bibtex:
+ ```
+ @article{rahimzadeh2020A,
+  title={A Fully Automated Deep Learning-based Network For Detecting COVID-19 from a New And Large Lung CT Scan Dataset},
+  author={Rahimzadeh, Mohammad and Attar, Abolfazl and Sakhaei, Seyed Mohammad},
+  doi = {10.20944/preprints202006.0031.v1},
+  url={https://www.preprints.org/manuscript/202006.0031/v1},
+  year={2020},
+  publisher={Preprints}
+}
+
+ ```
  If you have any questions, contact me by this email : mr7495@yahoo.com
