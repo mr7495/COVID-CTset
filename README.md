@@ -76,6 +76,9 @@ https://drive.google.com/drive/folders/1xdk-mCkxCDNwsMAk2SGv203rY1mrbnPB?usp=sha
 
  
  **The pre-prints is available at:** </br>
+ 
+ https://doi.org/10.1101/2020.06.08.20121541
+ 
  https://www.researchgate.net/publication/341804692_A_Fully_Automated_Deep_Learning-based_Network_For_Detecting_COVID-from_a_New_And_Large_Lung_CT_Scan_Dataset
  
  https://www.preprints.org/manuscript/202006.0031/v1
