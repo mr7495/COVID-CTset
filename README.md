@@ -24,7 +24,7 @@ The number of images and patients is listed in the next table.
 
 
 
-COVID-19 Patients | COVID-19 Patients | COVID-19 Images | Normal Images
+COVID-19 Patients | Normal People | COVID-19 Images | Normal Images
 ------------ | ------------- | ------------- | ------------- 
  95 | 282 | 15589 | 48260 
 
