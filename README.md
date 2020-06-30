@@ -83,7 +83,7 @@ https://drive.google.com/drive/folders/1xdk-mCkxCDNwsMAk2SGv203rY1mrbnPB?usp=sha
  
  https://www.preprints.org/manuscript/202006.0031/v1
  
- **The codes for data analysis and training or validating the networks based on this dataset are shared at https://github.com/mr7495/COVID-CT-Code.
+ **The codes for data analysis and training or validating the networks based on this dataset are shared at https://github.com/mr7495/COVID-CT-Code.**
  
  The paper final bibtex will be added soon, until then you can cite it by:
 
