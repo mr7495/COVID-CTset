@@ -1,4 +1,4 @@
-Patient ID,SEX,AGE,Date,COVID-19 Infection,SR_2 Folder thickness,SR_3 Folder thickness,SR_4 Folder thickness
+Patient ID,SEX,AGE,Date,COVID-19 Infection,SR_2 Folder thickness(mm),SR_3 Folder thickness(mm),SR_4 Folder thickness(mm)
 patient1,F,053Y,20200407,Positive,4,6,1.5
 patient3,M,066Y,20200418,Positive,5,5,5
 patient5,M,035Y,20200328,Positive,6,5,5
