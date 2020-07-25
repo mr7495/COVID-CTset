@@ -56,7 +56,9 @@ Fold5 | 22 | 450 | 211 | 7785
 As indicated this dataset is shared in two parts. **The first part with the name (Training&Validation.zip) contains the images for training and validating the networks in five folds. You can also find the CSV files of the images(labels) in the CSV folder.<br /> 
 The second part (COVID-CTset.zip) contains the whole dataset for each patient.** 
 
-**Each patient has three folders (SR_2, SR_3, SR_4), which each folder show one sequence of the lung HRCT scan images of that patient (One time the patient's lung opens and closes).**
+**Each patient has three folders (SR_2, SR_3, SR_4), which each folder show one sequence of the lung HRCT scan images of that patient (One time the patient's lung opens and closes). Each of these folders show the CT scans of the same patient that was recorded with different thickness.**
+
+**In [Patient_details.csv](Patient_details.csv), the thickness of each CT Scans folder for each patient is reported.** 
 
 In the next figure you can see what a sequence look like:
 
@@ -68,6 +70,7 @@ In the next figure you can see what a sequence look like:
 
 
 **The details of each patient is presented in [Patient_details.csv](Patient_details.csv)**
+
 
 **The dataset is shared in this folder:**<br />
 https://drive.google.com/drive/folders/1xdk-mCkxCDNwsMAk2SGv203rY1mrbnPB?usp=sharing
