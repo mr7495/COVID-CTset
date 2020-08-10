@@ -74,8 +74,8 @@ In the next figure you can see what a sequence look like:
 
 
 **The dataset is shared in this folder:**<br />
-https://drive.google.com/drive/folders/1xdk-mCkxCDNwsMAk2SGv203rY1mrbnPB?usp=sharing
-**The images of this dataset are 16-bit uint grayscale in TIFF format, so you can not visualize them with normal monitors( They would appear as black images).**
+https://drive.google.com/drive/folders/1xdk-mCkxCDNwsMAk2SGv203rY1mrbnPB?usp=sharing<br /> 
+**The images of this dataset are 16-bit uint grayscale in TIFF format, so you can not visualize them with normal monitors( They would appear as black images).**<br /> 
 
 **As the images of the dataset can not be visualized by regular monitors, you can use [Visualize.py](Visualize.py) to convert them to a visualizable format.**
 
