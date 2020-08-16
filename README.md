@@ -1,7 +1,7 @@
 # COVID-CTset : A Large COVID-19 CT Scans dataset containing 63849 images from 377 patients
 
 **The dataset is shared in this folder:**<br />
-https://drive.google.com/drive/folders/14l46LdeVPlKtT6vnorVu1RrJB9mDpvX0<br />
+https://drive.google.com/drive/folders/1xdk-mCkxCDNwsMAk2SGv203rY1mrbnPB?usp=sharing<br />
 The dataset storage may encounter some problems (especially with Iran IP), it will be fixed very soon.
 
 COVID-CTset is our introduced dataset. **This dataset contains the full original CT scans of 377 persons. There are 15589 and 48260 CT scan images belonging to 95 Covid-19 and 282 normal persons, respectively.** It was gathered from Negin medical center that is located at Sari in Iran. This medical center uses a SOMATOM Scope model and syngo CT VC30-easyIQ software version for capturing and visualizing the lung HRCT radiology images from the patients. The format of the exported radiology images was 16-bit grayscale DICOM format with 512*512 pixels resolution. As the patient's information was accessible via the DICOM files, we converted them to TIFF format, which holds the same 16-bit grayscale data but does not conclude the patients' private information.
@@ -81,7 +81,7 @@ In the next figure you can see what a sequence look like:
 
 
 **The dataset is shared in this folder:**<br />
-https://drive.google.com/drive/folders/14l46LdeVPlKtT6vnorVu1RrJB9mDpvX0<br />
+https://drive.google.com/drive/folders/1xdk-mCkxCDNwsMAk2SGv203rY1mrbnPB?usp=sharing<br />
 The dataset storage may encounter some problems (especially with Iran IP), it will be fixed very soon.
 
 **The images of this dataset are 16-bit uint grayscale in TIFF format, so you can not visualize them with normal monitors( They would appear as black images).**<br /> 
