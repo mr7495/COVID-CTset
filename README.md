@@ -77,7 +77,8 @@ In the next figure you can see what a sequence look like:
 
 
 **The dataset is shared in this folder:**<br />
-The dataset storage has encountered some problems, it will be fixed very soon.
+https://drive.google.com/drive/folders/14l46LdeVPlKtT6vnorVu1RrJB9mDpvX0<br />
+The dataset storage may encounter some problems (especially with Iran IP), it will be fixed very soon.
 
 **The images of this dataset are 16-bit uint grayscale in TIFF format, so you can not visualize them with normal monitors( They would appear as black images).**<br /> 
 
