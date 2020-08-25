@@ -102,15 +102,13 @@ The dataset storage may encounter some problems (especially with Iran IP), it wi
  The paper final bibtex will be added soon, until then you can cite it by:
 
  ```
-@article {Rahimzadeh2020.06.08.20121541,
+@article {rahimzadeh2020fully,
 	author = {Rahimzadeh, Mohammad and Attar, Abolfazl and Sakhaei, Seyed Mohammad},
 	title = {A Fully Automated Deep Learning-based Network For Detecting COVID-19 from a New And Large Lung CT Scan Dataset},
-	elocation-id = {2020.06.08.20121541},
 	year = {2020},
 	doi = {10.1101/2020.06.08.20121541},
 	publisher = {Cold Spring Harbor Laboratory Press},
 	URL = {https://www.medrxiv.org/content/early/2020/06/12/2020.06.08.20121541},
-	eprint = {https://www.medrxiv.org/content/early/2020/06/12/2020.06.08.20121541.full.pdf},
 	journal = {medRxiv}
 }
  ```
