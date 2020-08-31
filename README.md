@@ -16,7 +16,7 @@ To make these images visible with regular monitors, we converted them to float b
 **You can use [Visualize.py](Visualize.py) to convert the dataset images to a visualizable format.**
 
 **Find our paper at [Here](https://github.com/mr7495/COVID-CTset/CT_V2.pdf)**
-
+**If you use our data, please cite the paper.**
 
 Some of the images of our dataset are presented in the next figure.
 
