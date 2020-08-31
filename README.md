@@ -105,7 +105,7 @@ https://www.kaggle.com/mohammadrahimzadeh/covidctset-a-large-covid19-ct-scans-da
  
  **The codes for data analysis and training or validating the networks based on this dataset are shared at https://github.com/mr7495/COVID-CT-Code.**
  
- The paper final bibtex will be added soon, until then you can cite it by:
+If you use our data, please cite it by:
 
  ```
 @article {rahimzadeh2020fully,
