@@ -15,7 +15,7 @@ One of our novelties is using a 16bit data format instead of converting it to 8b
 To make these images visible with regular monitors, we converted them to float by dividing each image's pixel value by the maximum pixel value of that image. This way, the output images had a 32bit float type pixel values that could be visualized by regular monitors, and the quality of the images was good enough for analysis.
 **You can use [Visualize.py](Visualize.py) to convert the dataset images to a visualizable format.**
 
-**Find our paper at [Here](https://github.com/mr7495/COVID-CTset/CT_V3.pdf)**
+**Find our paper at [Here](https://github.com/mr7495/COVID-CTset/blob/master/CT_V3.pdf)**
 **If you use our data, please cite the paper.**
 
 Some of the images of our dataset are presented in the next figure.
