@@ -119,5 +119,8 @@ https://www.kaggle.com/mohammadrahimzadeh/covidctset-a-large-covid19-ct-scans-da
 	journal = {medRxiv}
 }
  ```
+ ```
+ Rahimzadeh, M.; Attar, A.; Sakhaei, M. A Fully Automated Deep Learning-based Network For Detecting COVID-19 from a New And Large Lung CT Scan Dataset. Preprints 2020, 2020060031 (doi: 10.20944/preprints202006.0031.v1).
+ ```
  If you have any questions, contact me by this email : mr7495@yahoo.com
  
