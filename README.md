@@ -28,9 +28,9 @@ Some of the images of our dataset are presented in the next figure.
 </p>
 
 
-Our dataset is constructed of two sections. **The first section includes training and validation data and the second section is the raw data for all the persons.** We converted the images to 32-bit float types on the TIFF format so that we could visualize them with regular monitors. Then we took the help of the clinical experts under the supervision of dr.sakhaei (Radiology Specialist) in the Negin medical center to select the infected patients' images that the infections were clear on them. We used these data for training and validating the trained networks.
+Our dataset is constructed of two sections. **The first section includes training and testing data and the second section is the raw data for all the persons.** We converted the images to 32-bit float types on the TIFF format so that we could visualize them with regular monitors. Then we took the help of the clinical experts under the supervision of dr.sakhaei (Radiology Specialist) in the Negin medical center to select the infected patients' images that the infections were clear on them. We used these data for training and testing the trained networks.
 
-To report more real and accurate results, we separated the dataset into five folds for training and validation. Almost 20 percent of the patients with COVID19 were allocated for validation in each fold, and the rest were considered for training. Because the number of normal patients and images was more than the infected ones, we almost chose the number of normal images equal to the COVID-19 images to make the dataset balanced. Therefore the number of normal images that were considered for network validation was higher than the training images.
+To report more real and accurate results, we separated the dataset into five folds for training, validating and testing. Almost 20 percent of the patients with COVID19 were allocated for testing the model in each fold, and the rest were considered for training. Because the number of normal patients and images was more than the infected ones, we almost chose the number of normal images equal to the COVID-19 images to make the dataset balanced. Therefore the number of normal images that were considered for network testing was higher than the training images.
 
 The number of images and patients is listed in the next table.
 
@@ -40,7 +40,7 @@ COVID-19 Patients | Normal People | COVID-19 Images | Normal Images
 ------------ | ------------- | ------------- | ------------- 
  95 | 282 | 15589 | 48260 
 
-The details of the training and validation data are reported in the next tables.
+The details of the training and testing data are reported in the next tables.
 
 
 Fold (Training Set)  | COVID-19 Patients | COVID-19 Images | Normal Patients | Normal Images
@@ -51,7 +51,7 @@ Fold3 | 77 | 1836 | 53 | 1893
 Fold4 | 81 | 1823 | 76 | 1920 
 Fold5 | 73 | 1832 | 71 | 1921 
 
-Fold (Validation Set)  | COVID-19 Patients | COVID-19 Images | Normal Patients | Normal Images
+Fold (Testing Set)  | COVID-19 Patients | COVID-19 Images | Normal Patients | Normal Images
 ------------ | ------------- | ------------- | ------------- | ------------- 
 Fold1 | 18 | 462 | 237 | 7860 
 Fold2 | 23 | 465 | 245 | 7878 
@@ -65,7 +65,7 @@ Fold5 | 22 | 450 | 211 | 7785
     <em>The distribution of our dataset</em>
 </p>
 
-As indicated this dataset is shared in two parts. **The first part with the name (Training&Validation.zip) contains the images for training and validating the networks in five folds. You can also find the CSV files of the images(labels) in the CSV folder.<br /> 
+As indicated this dataset is shared in two parts. **The first part with the name (Training&Validation.zip) contains the images for training, validation, and testing the networks in five folds. You can also find the CSV files of the images(labels) in the CSV folder.<br /> 
 The second part (COVID-CTset.zip) contains the whole dataset for each patient.** 
 
 **Each patient has three folders (SR_2, SR_3, SR_4), which each folder show one sequence of the lung HRCT scan images of that patient (One time the patient's lung opens and closes). Each of these folders show the CT scans of the same patient that was recorded with different thickness.**
