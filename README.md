@@ -2,7 +2,10 @@
 
 **The Whole dataset is shared in this folder:**<br />
 https://drive.google.com/drive/folders/1xdk-mCkxCDNwsMAk2SGv203rY1mrbnPB?usp=sharing<br />
-The dataset storage may encounter some problems (especially with Iran IP), it will be fixed very soon.
+or you can download the whole dataset in three parts from:
+https://figshare.com/articles/dataset/COVID-CTset_part1/13668596
+https://figshare.com/articles/dataset/COVID19-CTset_part2/13669969
+https://figshare.com/articles/figure/COVID19-CTset_parts_3_5/14174606
 
 **One part of the dataset(sufficient for training and testing deep neural networks) is also shared at:**
 https://www.kaggle.com/mohammadrahimzadeh/covidctset-a-large-covid19-ct-scans-dataset
