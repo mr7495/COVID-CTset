@@ -114,14 +114,15 @@ https://www.kaggle.com/mohammadrahimzadeh/covidctset-a-large-covid19-ct-scans-da
 **If you use our data, please cite it by:**
 
  ```
-@article {rahimzadeh2020fully,
-	author = {Rahimzadeh, Mohammad and Attar, Abolfazl and Sakhaei, Seyed Mohammad},
-	title = {A Fully Automated Deep Learning-based Network For Detecting COVID-19 from a New And Large Lung CT Scan Dataset},
-	year = {2020},
-	doi = {10.1101/2020.06.08.20121541},
-	publisher = {Cold Spring Harbor Laboratory Press},
-	URL = {https://www.medrxiv.org/content/early/2020/06/12/2020.06.08.20121541},
-	journal = {medRxiv}
+@article{RAHIMZADEH2021102588,
+title = {A fully automated deep learning-based network for detecting COVID-19 from a new and large lung CT scan dataset},
+journal = {Biomedical Signal Processing and Control},
+pages = {102588},
+year = {2021},
+issn = {1746-8094},
+doi = {https://doi.org/10.1016/j.bspc.2021.102588},
+url = {https://www.sciencedirect.com/science/article/pii/S1746809421001853},
+author = {Rahimzadeh, Mohammad and Attar, Abolfazl and Sakhaei, Seyed Mohammad},
 }
  ```
 
