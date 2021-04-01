@@ -98,8 +98,10 @@ https://www.kaggle.com/mohammadrahimzadeh/covidctset-a-large-covid19-ct-scans-da
 
 **As the images of the dataset can not be visualized by regular monitors, you can use [Visualize.py](Visualize.py) to convert them to a visualizable format.**
 
+**The published version of our paper is available at:** </br>
+ https://doi.org/10.1016/j.bspc.2021.102588
  
- **The pre-prints is available at:** </br>
+ **The pre-prints are available at:** </br>
  
  https://doi.org/10.1101/2020.06.08.20121541
  
@@ -122,8 +124,6 @@ https://www.kaggle.com/mohammadrahimzadeh/covidctset-a-large-covid19-ct-scans-da
 	journal = {medRxiv}
 }
  ```
- ```
- Rahimzadeh, M.; Attar, A.; Sakhaei, M. A Fully Automated Deep Learning-based Network For Detecting COVID-19 from a New And Large Lung CT Scan Dataset. Preprints 2020, 2020060031 (doi: 10.20944/preprints202006.0031.v3).
- ```
+
  If you have any questions, contact me by this email : mr7495@yahoo.com
  
