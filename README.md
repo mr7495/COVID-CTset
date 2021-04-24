@@ -2,7 +2,7 @@
 
 **The Whole dataset is shared in this folder:**<br />
 https://drive.google.com/drive/folders/1xdk-mCkxCDNwsMAk2SGv203rY1mrbnPB?usp=sharing<br />
-or you can download the whole dataset in three parts from:<br />
+**or you can download the whole dataset in three parts from:**<br />
 https://figshare.com/articles/dataset/COVID-CTset_part1/13668596<br />
 https://figshare.com/articles/dataset/COVID19-CTset_part2/13669969<br />
 https://figshare.com/articles/figure/COVID19-CTset_parts_3_5/14174606
