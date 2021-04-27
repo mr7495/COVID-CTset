@@ -12,7 +12,7 @@ https://www.kaggle.com/mohammadrahimzadeh/covidctset-a-large-covid19-ct-scans-da
 
  **The codes for data analysis and training or validating the networks based on this dataset are shared at https://github.com/mr7495/COVID-CT-Code.**
  
- **In [Patients_metadata.csv](Patients_metadata.csv), all the metadata (except the private information) for each CT scan folder of every patient has been reported.** 
+ **In [Patients_metadata.zip](Patients_metadata.zip), all the metadata (except the private information) for each CT scan folder of every patient has been reported.** 
 
 COVID-CTset is our introduced dataset. **This dataset contains the full original CT scans of 377 persons. There are 15589 and 48260 CT scan images belonging to 95 Covid-19 and 282 normal persons, respectively.** It was gathered from Negin medical center that is located at Sari in Iran. This medical center uses a SOMATOM Scope model and syngo CT VC30-easyIQ software version for capturing and visualizing the lung HRCT radiology images from the patients. The format of the exported radiology images was 16-bit grayscale DICOM format with 512*512 pixels resolution. As the patient's information was accessible via the DICOM files, we converted them to TIFF format, which holds the same 16-bit grayscale data but does not conclude the patients' private information.
 
@@ -79,7 +79,7 @@ The second part (COVID-CTset.zip) contains the whole dataset for each patient.**
 
 **In [Patient_details.csv](Patient_details.csv), the thickness of each CT Scans folder for each patient is reported.** 
 
-**In [Patients_metadata.csv](Patients_metadata.csv), all the metadata of patients (except the private information) for each CT scan folder has been reported.** 
+**In [Patients_metadata.zip](Patients_metadata.zip), all the metadata of patients (except the private information) for each CT scan folder has been reported.** 
 
 In the next figure you can see what a sequence look like:
 
