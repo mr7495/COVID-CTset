@@ -12,6 +12,8 @@ https://www.kaggle.com/mohammadrahimzadeh/covidctset-a-large-covid19-ct-scans-da
 
  **The codes for data analysis and training or validating the networks based on this dataset are shared at https://github.com/mr7495/COVID-CT-Code.**
  
+ **In [Patients_metadata.csv](Patients_metadata.csv), all the metadata (except the private information) for each CT scan folder of every patient has been reported.** 
+
 COVID-CTset is our introduced dataset. **This dataset contains the full original CT scans of 377 persons. There are 15589 and 48260 CT scan images belonging to 95 Covid-19 and 282 normal persons, respectively.** It was gathered from Negin medical center that is located at Sari in Iran. This medical center uses a SOMATOM Scope model and syngo CT VC30-easyIQ software version for capturing and visualizing the lung HRCT radiology images from the patients. The format of the exported radiology images was 16-bit grayscale DICOM format with 512*512 pixels resolution. As the patient's information was accessible via the DICOM files, we converted them to TIFF format, which holds the same 16-bit grayscale data but does not conclude the patients' private information.
 
 One of our novelties is using a 16bit data format instead of converting it to 8bit data, which helps improve the method's results. Converting the DICOM files to 8bit data may cause losing some data, especially when few infections exist in the image that is hard to detect even for clinical experts. This lost data may be the difference between different images or the values of the pixels of the same image. The pixels' values of the images differ from 0 to almost 5000, and the maximum pixels values of the images are considerably different. So scaling them through a consistent value or scaling each image based on the maximum pixel value of itself can cause the mentioned problems and reduce the network accuracy. So each image of COVID-CTset is a TIFF format, 16bit grayscale image.
@@ -76,6 +78,8 @@ The second part (COVID-CTset.zip) contains the whole dataset for each patient.**
 **Each patient has three folders (SR_2, SR_3, SR_4), which each folder show one sequence of the lung HRCT scan images of that patient (One time the patient's lung opens and closes). Each of these folders show the CT scans of the same patient that was recorded with different thickness.**
 
 **In [Patient_details.csv](Patient_details.csv), the thickness of each CT Scans folder for each patient is reported.** 
+
+**In [Patients_metadata.csv](Patients_metadata.csv), all the metadata of patients (except the private information) for each CT scan folder has been reported.** 
 
 In the next figure you can see what a sequence look like:
 
